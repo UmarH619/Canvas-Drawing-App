@@ -9,3 +9,11 @@ body {
     overflow: hidden;
     background: #313131
 }
+
+.tools .colour-field {
+    height: 40px;
+    width: 40px;
+    min-height: 40px;
+    min-width: 40px;
+    cursor: pointer;
+}
