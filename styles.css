@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+:root {}
+
+body {
+    margin: 0px;
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+    background: #313131
+}
