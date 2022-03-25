@@ -10,6 +10,13 @@ body {
     background: #313131
 }
 
+.tools {
+    display:flex;
+    justify-content:center;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
 .colour-field {
     height: 40px;
     width: 40px;
@@ -20,4 +27,28 @@ body {
     box-sizing: border-box;
     border-radius: 50%;
     border: 2px solid white;
+    align-self: center;
+    margin: 0 10px;
+}
+
+.button {
+    align-self: center;
+    width: 100px;
+    height: 40px;
+    border: 2px;
+    cursor: pointer;
+    color: white;
+    background: #222;
+    margin: 0 10px;
+}
+
+.colour-picker {
+    align-self: center;
+    margin: 0 10px;
+    height: 50px;
+}
+
+.pen-range {
+    align-self: center;
+    margin: 0 10px;
 }
