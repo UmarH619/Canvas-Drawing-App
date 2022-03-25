@@ -16,13 +16,13 @@ canvas {
 }
 
 .tools {
-    display:flex;
-    justify-content:center;
+    display: flex;
+    justify-content: center;
     flex-direction: row;
     margin-top: 10px;
 }
 
-.colour-field {
+.tools .colour-field {
     height: 40px;
     width: 40px;
     min-height: 40px;
@@ -40,10 +40,11 @@ canvas {
     align-self: center;
     width: 100px;
     height: 40px;
-    border: 2px;
+    border: 2px solid white;
     cursor: pointer;
     color: white;
     background: #222;
+    font-weight: bold;
     margin: 0 10px;
 }
 
